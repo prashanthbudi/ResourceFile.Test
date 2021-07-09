@@ -9,19 +9,13 @@ namespace ResourceFile.Test.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+    public class ResourceTestController : ControllerBase
     {
-        private static readonly string[] Summaries = new[]
-        {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-        };
-
-        private readonly ILogger<WeatherForecastController> _logger;
+      
         private readonly IStringLocalizer<Pattern> _stringLocalizer;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger, IStringLocalizer<Pattern> stringLocalizer)
+        public ResourceTestController(IStringLocalizer<Pattern> stringLocalizer)
         {
-            _logger = logger;
             _stringLocalizer = stringLocalizer;
         }
 
