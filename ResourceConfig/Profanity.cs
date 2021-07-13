@@ -1,6 +1,6 @@
 ﻿namespace ResourceConfig
 {
-    public class Pattern
+    public class Profanity
     {
     }
 }

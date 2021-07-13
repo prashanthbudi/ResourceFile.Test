@@ -117,7 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Pattern" xml:space="preserve">
-    <value>dirty*|absurd*</value>
+  <data name="Anal" xml:space="preserve">
+    <value>Anal*</value>
+  </data>
+  <data name="Damn" xml:space="preserve">
+    <value>Damn*</value>
+  </data>
+  <data name="Piss" xml:space="preserve">
+    <value>Piss*</value>
   </data>
 </root>

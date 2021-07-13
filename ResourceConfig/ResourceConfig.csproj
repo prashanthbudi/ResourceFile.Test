@@ -11,11 +11,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Resources\Pattern.en-GB.resx">
+    <EmbeddedResource Update="Resources\Profanity.en-GB.resx">
       <SubType>Designer</SubType>
       <Generator>PublicResXFileCodeGenerator</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Resources\Pattern.en-US.resx">
+    <EmbeddedResource Update="Resources\Profanity.en-US.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
     </EmbeddedResource>
   </ItemGroup>
